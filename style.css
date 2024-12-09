@@ -1,0 +1,74 @@
+header{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(255, 166, 0);
+    border: solid;
+    
+}
+body{
+    margin: 0;
+    background-color: brown;
+    text-align: center;
+}
+.p1{
+    text-decoration: line-through black;
+}
+.body1{
+    background-image: url("https://watermark.lovepik.com/photo/20211209/large/lovepik-shopping-mall-supermarket-scene-picture_501715006.jpg");
+
+    background-size:400px ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.img1{
+    width: 400px;
+    margin: 10px;
+}
+.img2{
+   
+    width: 100px;
+    margin: 10px;
+}
+.img3{
+    width: 200px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 94, 0);
+    height: 50px;
+}
+nav>a{
+    color: rgb(29, 28, 28);
+    text-decoration: none;
+    font-size: 18px;
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+nav>a:hover{
+    background-color: rgb(50, 191, 201);
+    color: #f7f7f0;
+    transition: background-color 0.7s;
+    transition: color 0.7s;
+}
+@media(max-width:300px){
+    nav{
+      flex-direction: column;  
+      height: 100px;
+    }
+}
+p{
+    font-family:"Brush Script MT", cursive ;
+    font-size: x-large;
+    margin-top: 300px;
+    color: rgb(238, 231, 231);
+    margin: 0;
+}
+main{
+    margin: 10px;
+}
+
